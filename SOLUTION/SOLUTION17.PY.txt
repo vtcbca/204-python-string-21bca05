@@ -1,5 +1,5 @@
+#WAS TO ENTER ANY STRING AND PRINT THOES WORD WHICH IS PALINDROME WORDS IN SENTENCE AND COUNT TOTAL PALINDROME WORD IN ENTER STRING:
 s=[]
-
 str=input(" Enter any string:")
 
 for word in str.split():
@@ -10,4 +10,4 @@ for word in str.split():
 
 		s.append(word)
 
-sprint("Total number of palindrome words in a sentence:",len(s))
+print("Total number of palindrome words in a sentence:",len(s))
